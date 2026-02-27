@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 SW2: Discount Portal</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <header class="header navbar navbar-expand-sm navbar-dark bg-dark">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)">GADGETS & GIZMOS</a>
+        </div>
+
+        <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search Here">
+            <button class="btn btn-primary" type="button">PROMO</button>
+        </form>
+        
+    </header>
+
+    <main class="container-fluid">
+        <div class="container text-center p-5 rounded">
+            <h2>Want a gaming laptop? 🎮</h2>
+            <p>Enter your budget to find the right one!</p>
+            <input type="number" class="form-control w-60" placeholder="Enter budget (e.g. 50000)" id="budgetInput">
+            <br>
+            <button type="button" class="btn btn-primary mt-3" onclick="window.location.reload()">Refresh</button>
+        </div>
+
+
+        <button type="button" class="btn btn-primary mt-3" onclick="getDiscount()">Brand & Discounts</button>
+        <div id="dPop"></div>
+        <button type="button" class="btn btn-primary mt-3" onclick="getLoc()">Store Location</button>
+        <div id="lPop"></div>
+        
+    </main>
+
+
+    <footer class="text-center py-3 bg-dark text-light mt-auto fixed-bottom">
+        &copy; 2026 Gadgets & Gizmos. All rights reserved.
+    </footer> 
+
+
+<script src="main.js"></script>
+</body>
+</html>

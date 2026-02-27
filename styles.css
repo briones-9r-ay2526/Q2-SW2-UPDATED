@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1330248664/vector/hexagonal-and-rectangular-abstracts-with-a-digital-network-image-blue-gradient-background.jpg?s=612x612&w=0&k=20&c=JgeKAVSAO_S-A0r61OP99BqNduP0CXE7gvc0jjoAD4Q=);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 3%;
+    padding: 10px;
+    text-align: center;
+
+    background-color: #7ec7ff;
+}
+
+main{
+    text-align: center;
+}
+
+div{
+    justify-content: center;
+}
+
+.discount{
+    margin-top: 10px;
+    margin-left: 597px;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    background-color: #00000084;
+}
+
+button{
+    margin: auto;
+}
+
+.location{
+    margin-top: 10px;
+    margin-left: 497px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+
+    background-color: #00000084;
+}
+
+img{
+    width: 80%;
+}
+
+.text{
+    color:aliceblue;
+}
